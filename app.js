@@ -1,5 +1,5 @@
 // ---------- Config ----------
-  var WA_NUMBER = "5492494643490"; // WhatsApp de Dulce Emma
+  var WA_NUMBER = "5492494643490"; // WhatsApp de Dulcecita Emma
   var CURRENCY = "$";
 
   // Fotos reales por id de producto (si no hay, se dibuja una ilustración)
@@ -112,7 +112,7 @@
     return "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(text);
   }
   function productMsg(p){
-    return "¡Hola Dulce Emma! 💜 Me interesa: " + p.name +
+    return "¡Hola Dulcecita Emma! 💜 Me interesa: " + p.name +
       " (" + CURRENCY + fmt(p.price) + "). ¿Está disponible?";
   }
 
@@ -162,7 +162,7 @@
   }
 
   // ---------- Links WhatsApp globales ----------
-  var generalMsg = "¡Hola Dulce Emma! 💜 Vi tu tienda online y quería hacer una consulta.";
+  var generalMsg = "¡Hola Dulcecita Emma! 💜 Vi tu tienda online y quería hacer una consulta.";
   ["heroWa","heroWa2","ctaWa","footWa"].forEach(function(id){
     var e = document.getElementById(id);
     if(e) e.href = waLink(generalMsg);
