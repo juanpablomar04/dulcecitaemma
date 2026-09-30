@@ -4,11 +4,14 @@
 
   // Fotos reales por id de producto (si no hay, se dibuja una ilustración)
   var PHOTOS = {
-    3: "assets/prod-3.jpg",
-    8: "assets/prod-8.jpg",
-    4: "assets/prod-4.jpg",
+    15: "assets/prod-15.jpg",
+    14: "assets/prod-14.jpg",
+    13: "assets/prod-13.jpg",
+    1: "assets/prod-1.jpg",
     2: "assets/prod-2.jpg",
-    1: "assets/prod-1.jpg"
+    3: "assets/prod-3.jpg",
+    4: "assets/prod-4.jpg",
+    8: "assets/prod-8.jpg"
   };
 
   // ---------- Catálogo demo ----------
@@ -22,28 +25,20 @@
   var PRODUCTS = [
     { id:1, cat:"velas", name:"Vela Flor de Loto", price:12000, tag:"Más vendida",
       desc:"Vela de cera de soja con forma de flor de loto. Aroma a elección." },
-    { id:2, cat:"velas", name:"Vela Cuenco Zen", price:9500, tag:"",
-      desc:"Cuenco de cera perfumada, ideal para meditar y relajar el ambiente." },
-    { id:3, cat:"velas", name:"Vela Buda Meditación", price:14000, tag:"",
+    { id:2, cat:"difusores", name:"Difusor Colgante Margaritas", price:10000, tag:"Nuevo",
+      desc:"Difusor colgante aromático con margaritas, hecho en yeso. Perfuma placares, autos y ambientes." },
+    { id:3, cat:"velas", name:"Vela Buda Meditación", price:6000, tag:"",
       desc:"Figura de Buda en cera de soja. Un detalle sereno para tu espacio." },
     { id:4, cat:"velas", name:"Set Cuenco + Velitas", price:18000, tag:"Set",
       desc:"Cuenco decorativo acompañado de tres velitas flotantes aromáticas." },
-    { id:5, cat:"difusores", name:"Difusor Aromático Lavanda", price:11000, tag:"",
-      desc:"Difusor de varillas con esencia de lavanda. Aroma duradero y suave." },
-    { id:6, cat:"difusores", name:"Mini Difusor de Auto", price:6500, tag:"",
-      desc:"Difusor colgante para el auto o placares. Fragancia a elección." },
-    { id:7, cat:"difusores", name:"Set Difusor + Repuesto", price:16500, tag:"Set",
-      desc:"Difusor de varillas con frasco de repuesto de 100 ml incluido." },
-    { id:8, cat:"porcelana", name:"Maceta Frida", price:15000, tag:"Artesanal",
+    { id:8, cat:"porcelana", name:"Maceta Frida", price:10000, tag:"Artesanal",
       desc:"Maceta decorativa modelada a mano inspirada en Frida, con flores." },
-    { id:9, cat:"porcelana", name:'Figura decorativa "Luz"', price:10000, tag:"",
-      desc:"Pieza de porcelana fría pintada a mano. Ideal para regalar." },
-    { id:10, cat:"porcelana", name:"Rosas de Porcelana", price:13500, tag:"",
-      desc:"Ramo de rosas modeladas en porcelana fría que no se marchitan." },
-    { id:11, cat:"porcelana", name:"Souvenirs personalizados x10", price:22000, tag:"Eventos",
-      desc:"Recuerdos a medida para cumpleaños, bautismos y casamientos." },
-    { id:12, cat:"velas", name:"Vela Aromática Grande", price:16000, tag:"",
-      desc:"Vela de gran tamaño en vaso de vidrio. Hasta 40 h de duración." }
+    { id:13, cat:"difusores", name:"Difusor Colgante Buda", price:6000, tag:"Nuevo",
+      desc:"Difusor colgante aromático con figura de Buda en yeso y detalles dorados. Aroma a elección." },
+    { id:14, cat:"difusores", name:"Difusor Colgante Margarita", price:6000, tag:"Nuevo",
+      desc:"Difusor colgante aromático con una margarita en yeso. Ideal como souvenir para eventos." },
+    { id:15, cat:"difusores", name:"Set Difusores Margarita + Buda", price:7000, tag:"Set",
+      desc:"Set de dos difusores en yeso: margarita y Buda. Perfuman placares y ambientes. Aroma a elección." }
   ];
 
   // ---------- Ilustraciones SVG por categoría (placeholder demo) ----------
